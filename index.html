@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>National Park Search</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Find a National Park In Your State</h1>
+    <section class="wrapper">
+      <form>
+        <p>Enter a State here</p>
+        <input class="search" type="text" placeholder="i.e. ca">
+        <p>Number of search results</p>
+        <input class="maxResults" type="number" value="10">
+        <input class="submit" type="submit" value="Search">
+      </form>
+      <div class="container">
+        <div class="display hidden"></div>
+      </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
